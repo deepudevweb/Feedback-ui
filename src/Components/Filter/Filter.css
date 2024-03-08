@@ -1,0 +1,151 @@
+.backpath {
+    padding: 10px 40px;
+    margin: 20px 30px;
+}
+
+.backpath h4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.filter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.filter-upper {
+    width: 600px;
+}
+
+.filter-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-top h3 {
+    color: rgb(240,249,255);
+}
+
+.rocket {
+    width: 50px;
+    height: 50px;
+}
+
+.popular {
+    padding: 5px 12px;
+    background-color: rgb(240,249,255);
+    border-radius: 5px;
+    color: black;
+}
+
+/* filterbox */
+
+.boxtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tagspan {
+    padding: 6px 10px;
+    background-color: rgb(183,234,255);
+    color: rgb(44, 6, 6);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.filter-container {
+    width: 600px;
+    border: 1px solid #160606;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(240,249,255);
+    color: black;
+}
+
+.boxbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxbottom p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.text,
+.text-2 {
+    margin-bottom: 20px;
+}
+
+.text-2 {
+    font-weight: lighter;
+}
+
+/* filterboxtwo */
+
+.user-acc {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.user-acc span {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin: 0 10px;
+}
+
+.tag {
+    display: flex;
+}
+
+.top-logo span {
+    display: flex;
+    align-items: center;
+}
+
+.boxbottom {
+    display: flex;
+    align-items: center;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment {
+    width: 400px;
+    padding: 4px 5px;
+    border-radius: 6px;
+    border: .2px solid #16060688;
+    outline: none;
+}
+
+.post {
+    padding: 4px 14px;
+    border-radius: 6px;
+    border: .2px solid #16060688;
+    outline: none;
+    text-align: center;
+}
+
+#boxtop-2 {
+    margin-bottom: 13px;
+}

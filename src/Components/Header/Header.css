@@ -1,0 +1,30 @@
+.profile-img {
+    width: 35px;
+    height: 35px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgb(16,16,16);
+    box-shadow: 0 0 10px rgba(209, 197, 197, 0.582);
+
+}
+    
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff2f2af;
+    font-size: 16px;
+}
+
+.header img {
+    border-radius: 50%;
+}
