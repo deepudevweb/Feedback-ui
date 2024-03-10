@@ -11,7 +11,7 @@ function Submit() {
   };
 
   return (
-    <div className='popup'>
+    <div className='popup' style={{ width: '300px', boxShadow: '2px 3px 1px rgba(0, 0, 0, 0.259)', borderRadius: '10px', backgroundColor: 'white !important', padding: '0 13px' }}>
       <div className="feed-top">
         <p>you are facing right now!</p>
         <p>Let us know about the <b>issue</b></p>
