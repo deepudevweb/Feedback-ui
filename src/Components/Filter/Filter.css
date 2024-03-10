@@ -14,7 +14,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .filter-upper {
@@ -27,7 +27,7 @@
 }
 
 .filter-top h3 {
-    color: rgb(240,249,255);
+    color: rgb(240, 249, 255);
 }
 
 .rocket {
@@ -37,7 +37,7 @@
 
 .popular {
     padding: 5px 12px;
-    background-color: rgb(240,249,255);
+    background-color: rgb(240, 249, 255);
     border-radius: 5px;
     color: black;
 }
@@ -59,7 +59,7 @@
 
 .tagspan {
     padding: 6px 10px;
-    background-color: rgb(183,234,255);
+    background-color: rgb(183, 234, 255);
     color: rgb(44, 6, 6);
     border-radius: 5px;
     margin: 0 10px;
@@ -70,7 +70,7 @@
     border: 1px solid #160606;
     border-radius: 5px;
     padding: 10px 20px;
-    background-color: rgb(240,249,255);
+    background-color: rgb(240, 249, 255);
     color: black;
 }
 
@@ -148,4 +148,104 @@
 
 #boxtop-2 {
     margin-bottom: 13px;
+}
+
+
+@media (max-width: 500px) {
+    .filter-container {
+        width: 90%;
+    }
+
+    .comment {
+        width: 161px;
+        padding: 5px 5px;
+        border-radius: 6px;
+        border: 0.2px solid #16060688;
+        outline: none;
+        font-size: 9px;
+    }
+
+    .post {
+        padding: 1px 8px;
+    }
+
+    .filter-top {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .filter-top h3 {
+        font-size: 15px;
+    }
+
+    .popular {
+        padding: 3px 7px;
+        font-size: 15px;
+    }
+
+    .header {
+        padding: 9px 22px;
+    }
+
+    .head-container h3 {
+        font-size: 15px;
+    }
+
+    .profile {
+        gap: 6px;
+    }
+
+    .header a {
+        display: none;
+    }
+
+    .boxbottom p {
+        font-size: 11px;
+    }
+
+    .text,
+    .text-2 {
+        font-size: 12px;
+    }
+
+    .tagspan {
+        padding: 5px 7px;
+        background-color: rgb(183, 234, 255);
+        color: rgb(44, 6, 6);
+        border-radius: 5px;
+        margin: 0 7px;
+        font-size: 10px;
+    }
+
+    .rocket {
+        width: 26px;
+        height: 23px;
+    }
+
+    .top-logo p {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-size: 9px;
+    }
+
+    .top-logo span {
+        font-size: 14px;
+    }
+
+    .user-acc span {
+        font-size: 9px;
+        margin: 0px 5px;
+    }
+
+    .flex-row {
+        flex-direction: row !important;
+        bottom: 470px;
+    }
+
+    .navigation-container {
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+    }
+
 }

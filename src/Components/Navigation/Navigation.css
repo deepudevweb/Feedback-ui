@@ -1,5 +1,126 @@
+.item-area {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+    color: black;
+    padding: 10px;
+}
+
 .navigation {
+    justify-content: right;
+    position: fixed;
+    right: 0px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ssvg {
+    display: flex;
+    justify-content: center;
+    width: 34px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-items,
+.cross-area {
+    width: 200px;
+}
+
+.cross-area {
+    display: none;
+}
+
+.nav-text {
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 4px
+}
+
+.nav-items {
+    display: none;
+
+}
+
+.nav-shower {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nav-box {
+    position: relative;
+}
+
+.nav-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flex-row {
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .navigation {
     width: 100%;
+    position: fixed;
+    bottom: 200px;
+    right: 200px;
 }
 
 .nav-container {
@@ -9,6 +130,7 @@
     align-items: end;
     justify-content: center;
     gap: 10px;
+    transition: all linear 0.5s;
 }
 
 .navlinks {
@@ -24,7 +146,7 @@
     gap: 10px;
 }
 
-.nav-container div {
+.nav-container {
     margin: 10px 10px;
     cursor: pointer;
     border: 1px solid black;
@@ -38,8 +160,32 @@
 
 }
 
+
+
 .nav-text {
     background-color: rgb(240,249,255);
     color: black;
     padding: 4px 8px;
 }
+
+/* .nav-hider {
+    /* display: none; */
+}
+
+*/
+/* .open {
+    /* display: flex;
+    margin: 5px 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 35px;
+    width: 37px;
+    /* display: flex; */
+/* align-items: center;
+    justify-content: center;
+    background-color: aliceblue; */
+*/
+}
+
+*/ */
