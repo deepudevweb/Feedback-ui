@@ -6,7 +6,7 @@ import { AiOutlineComment } from "react-icons/ai";
 import { MdOutlineEditNote } from "react-icons/md";
 import { HiMiniFlag } from "react-icons/hi2";
 import { MdThumbsUpDown } from "react-icons/md";
-import Submit from '../Submit/Issue';
+import Submit from '../Submit/Submit';
 import Feedback from '../Submit/Feedback';
 import Suggestions from '../Submit/Suggestions';
 import Contactus from '../Submit/Contactus';
@@ -31,14 +31,14 @@ function Navigation() {
     return (
         <div className='navigation'>
             <div>
-                {submitModel == 'issue' && <Submit />}
+                {submitModel == 'Submit' && <Submit />}
                 {submitModel == 'Feedback' && <Feedback />}
                 {submitModel == 'Suggestions' && <Suggestions />}
                 {submitModel == 'Contact' && <Contactus />}
             </div>
             <div className={submitModel == '' ? 'nav-box' : 'nav-box flex-row'} id="nav-box">
                 <div className={Checkclassname()}>
-                    <span className='item-area' onClick={() => setSubmitModel('issue')}>
+                    <span className='item-area' onClick={() => setSubmitModel('Submit')}>
                         {submitModel != '' ? <></> : <p className='nav-text'>Report an issue</p>}
                         <div className='ssvg'> <HiMiniFlag className='active' style={{ scale: '1.6', color: 'black' }} /></div>
                     </span>

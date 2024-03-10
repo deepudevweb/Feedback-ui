@@ -4,7 +4,7 @@ import DropdownItemTagsExample from './Dropdown'
 
 function Contactus() {
     return (
-        <div className='submit'>
+        <div className='popup'>
             <div className="feed-top">
                 <p>for your queries!</p>
                 <p>Get in <b>Conatact with us </b> with us</p>

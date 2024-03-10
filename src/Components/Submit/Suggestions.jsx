@@ -5,7 +5,7 @@ import { MdAttachFile } from "react-icons/md";
 
 function Suggestions() {
     return (
-        <div className='submit'>
+        <div className='popup'>
             <div className="feed-top">
                 <p>for a chance to earn rewards!</p>
                 <p>Shere you <b>Suggestions</b> with us</p>

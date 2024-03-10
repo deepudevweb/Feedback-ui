@@ -11,7 +11,7 @@ function Submit() {
   };
 
   return (
-    <div className='submit'>
+    <div className='popup'>
       <div className="feed-top">
         <p>you are facing right now!</p>
         <p>Let us know about the <b>issue</b></p>

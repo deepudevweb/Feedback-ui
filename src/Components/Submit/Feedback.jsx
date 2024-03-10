@@ -5,7 +5,7 @@ import { MdAttachFile } from "react-icons/md";
 
 function Feedback() {
   return (
-    <div className='submit'>
+    <div className='popup'>
       <div className="feed-top">
       <p>about us!</p>
         <p>Let us know your <b>feedback</b></p>

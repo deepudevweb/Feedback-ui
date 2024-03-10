@@ -3,7 +3,7 @@ import './Submit.css'
 
 function Loggedout() {
   return (
-    <div className='submit'>
+    <div className='popup'>
       <div className="feed-top" style={{ padding: '15px' }}>
         <p>queries!</p>
         <p>Get in <b>Contact with us</b> for your</p>
